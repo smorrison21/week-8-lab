@@ -1,11 +1,6 @@
 import pandas as pd
 import datetime
-
 import pandas_datareader.data as web
-from pandas_datareader import wb
-
-import requests
-from alpha_vantage.timeseries import TimeSeries
 import matplotlib.pyplot as plt
 
 # 1. Using Pandas DataReader, retrieve the average monthly closing stock
